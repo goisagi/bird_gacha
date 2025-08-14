@@ -1,0 +1,8 @@
+body {
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+}
+
+.image-item {
+  width: 90%;
+  margin: 5% 5% 0 5%;
+}

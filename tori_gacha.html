@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- OGP -->
+  <meta property="og:url" content="https://goisagi.github.io/bird_gacha/tori_gacha.html">
+  <meta property="og:title" content="とりガチャ">
+  <meta property="og:description" content="鳥のお題ガチャサイトです。">
+  <meta property="og:image" content="https://goisagi.github.io/bird_gacha/tori_gacha_ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="とりガチャ">
+  <meta name="twitter:description" content="鳥のお題ガチャサイトです。">
+  <meta name="twitter:image" content="https://goisagi.github.io/bird_gacha/tori_gacha_ogp.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>とりガチャ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha256-fx038NkLY4U1TCrBDiu5FWPEa9eiZu01EiLryshJbCo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="tori_gacha.css">
+</head>
+
+<body class="bg-warning-subtle">
+
+  <header>
+    <nav class="navbar bg-info" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">とりガチャ</a>
+      </div>
+    </nav>
+  </header>
+
+  <img class="image-item" src="tori_gacha_ogp.png" alt="イメージイラスト">
+
+  <div class="container pt-5">
+    <h1>野鳥の絵を描こう！</h1>
+    <p>あなたに今おすすめの鳥を紹介するよ！名前を入力してね</p>
+
+    <div class="row">
+      <div class="col-sm-9 col-lg-6">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control " id="user-name" size="40" maxlength="20">
+          <button class="btn btn-info text-white" id="assessment">診断する</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-9">
+        <div id="result-area"></div>
+      </div>
+    </div>
+    <div id="tweet-area" class="mt-3"></div>
+  </div>
+
+  <script src="tori_gacha.js"></script>
+</body>
+
+</html>
