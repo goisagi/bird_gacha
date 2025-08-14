@@ -63,7 +63,7 @@ assessmentButton.addEventListener(
 
     anchor.setAttribute('href', hrefValue);
     anchor.setAttribute('class', 'twitter-hashtag-button');
-    anchor.setAttribute('data-text', result);
+    anchor.setAttribute('data-text', result+"https://goisagi.github.io/bird_gacha/tori_gacha.html");
     anchor.innerText = 'Tweet #とりガチャ';
 
     tweetDivision.appendChild(anchor);
